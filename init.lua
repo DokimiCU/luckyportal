@@ -333,6 +333,7 @@ minetest.register_node('luckyportal:rift', {
 		minetest.sound_play("luckyportal_thunder", {pos = target_coords, gain = 7, max_hear_distance = 60,})
 		flash2(pos)
 	end,
+	drop = "luckyportal:luckyportal"
 	})
 
 
